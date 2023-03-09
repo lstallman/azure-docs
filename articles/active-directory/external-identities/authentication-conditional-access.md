@@ -72,10 +72,7 @@ The following diagram illustrates the flow when email one-time passcode authenti
 
 Organizations can enforce [Conditional Access](../conditional-access/overview.md) policies for external B2B collaboration and B2B direct connect users in the same way that they’re enabled for full-time employees and members of the organization. With the introduction of cross-tenant access settings, you can also trust MFA and device claims from external Azure AD organizations. This section describes important considerations for applying Conditional Access to users outside of your organization.
 
-### Assigning Conditional Access policies to external user types (preview)
-
-> [!NOTE]
-> This section describes a preview feature of Azure Active Directory. For more information about previews, see [Supplemental Terms of Use for Microsoft Azure Previews](https://azure.microsoft.com/support/legal/preview-supplemental-terms/).
+### Assigning Conditional Access policies to external user types
 
 When configuring a Conditional Access policy, you have granular control over the types of external users you want to apply the policy to. External users are categorized based on how they authenticate (internally or externally) and their relationship to your organization (guest or member).
 
